@@ -5,7 +5,7 @@ pipeline {
 	environment {
 		DOCKERHUB_CREDENTIALS=credentials('adwaa-dockerhub-token')
 		AWS_ACCESS_KEY_ID     = credentials('adwaa-aws-secret-key-id')
-   AWS_SECRET_ACCESS_KEY = credentials('adwaa-aws-secret-access-key	')
+   AWS_SECRET_ACCESS_KEY = credentials('adwaa-aws-secret-access-key')
 	ARTIFACT_NAME = 'Dockerrun.aws.json'
 AWS_S3_BUCKET = 'adwaa-belt2-artifacts-123456'
 AWS_EB_APP_NAME = 'B2-D4'
